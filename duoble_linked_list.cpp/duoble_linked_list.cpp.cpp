@@ -5,4 +5,3 @@ bool DoubleLinkedList::search(int rollNO, Node** previous, Node** current) {
 		*current = (*current)->next;
 	}
 	return(*current != NULL);
-}
