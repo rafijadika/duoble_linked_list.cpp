@@ -1,3 +1,4 @@
-Node* current = START;
-while (current->next != NULL && nim > current->next->noMhs)
-current = current->next;
+if (current->next != NULL && nim == current->next->noMhs) {
+	cout << "\nDuplicate roll nummbers not allowed" << endl;
+	return;
+}
